@@ -1,33 +1,36 @@
 # Site settings
-name:曲延从的博客 
-email:quyancong@126.com 
+name: 曲延从的博客
+email: quyancong@126.com
 author: Yancong Qu
-url: http://quyancong.github.com
-resume_site:个人博客 
+url: http://quyancong.github.io
+resume_site: http://quyancong.github.io
 github: https://github.com/quyancong/
 baseurl: ""
-description:点滴积累
-meta_description: 曲延从- 互联网开发,PHP技术栈;活到老，学到老
-motto: It's our wits that make us men.
-banner: 点滴积累，就是进步
+description: 点滴积累方有为,每步思索可致远
+meta_description: 曲延从;个人博客;
+motto: 曲延从的博客
+banner: 点滴积累方有为,每步思索可致远。
 
 #permalink: /:categories/:year/:month/:day/:title/
 permalink: /:year/:month/:day/:title/
 paginate: 10
+gems: [jekyll-paginate]
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
-github_username: quyancong
-highlighter: Pygments
+github_username: quyancong 
+
 
 # Build settings
 markdown: kramdown
-
-
-FB:
-  comments :
-    # facebook :
-    #   appid : 123
-    #   num_posts: 5
-    #   width: 580
-    #   colorscheme: light
+highlighter: rouge
+kramdown:
+  input: GFM
+  extensions:
+    - autolink
+    - footnotes
+    - smart
+  enable_coderay: true
+  syntax_highlighter: rouge
+  coderay:
+    coderay_line_numbers:  nil
