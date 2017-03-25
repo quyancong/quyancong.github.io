@@ -12,13 +12,23 @@ tag: 随笔
 
 新开博客
 
-~~~
+{% highlight php %}
 <?php
-echo 111;
-function a (){
+require("a.php");
+function say (){
 	
+	echo "hello world";
 
-	echo 111;
 }
 ?>
-~~~
+{% endhighlight php %}
+
+{% highlight ruby %}
+def show
+  @widget = Widget(params[:id])
+  respond_to do |format|
+    format.html # show.html.erb
+    format.json { render json: @widget }
+  end
+end
+{% endhighlight ruby %}
