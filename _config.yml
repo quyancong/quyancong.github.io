@@ -1,5 +1,5 @@
 # Site settings
-name: 曲延从的博客
+name: 人人的博客
 email: quyancong@126.com
 author: Yancong Qu
 url: http://quyancong.github.io
@@ -8,7 +8,7 @@ github: https://github.com/quyancong/
 baseurl: ""
 description: 点滴积累方有为,每步思索可致远
 meta_description: 曲延从;个人博客;
-motto: 曲延从的博客
+motto: 人人的博客
 banner: 点滴积累方有为,每步思索可致远。
 
 #permalink: /:categories/:year/:month/:day/:title/
