@@ -35,7 +35,7 @@ end
 {% endhighlight ruby %}
 
 ## 博客工具
-1.markdown富文本编辑工具
-http://prose.io/
-2.代码高亮工具
-https://highlightjs.org/
+##### markdown富文本编辑工具
+* [http://prose.io/](http://prose.io/)
+##### 代码高亮工具
+* [https://highlightjs.org/](https://highlightjs.org/)
