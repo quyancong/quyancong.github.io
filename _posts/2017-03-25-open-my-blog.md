@@ -38,11 +38,3 @@ end
 1.markdown富文本编辑工具
 http://prose.io/
 
-        <?php
-        require("a.php");
-        function say (){
-        	
-        	echo "hello world";
-
-        }
-        ?>
