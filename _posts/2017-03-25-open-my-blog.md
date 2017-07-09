@@ -1,16 +1,17 @@
 ---
 layout: post
-title:  开启了我的jekyll博客
-date:   2017-03-25 15:57:00 +0800
+title: 开启了我的jekyll博客
+date: '2017-03-25 15:57:00 +0800'
 categories: 随笔
 tag: 随笔
+published: true
 ---
 
 * content 
 {:toc}
 
 
-新开博客
+##新开博客
 
 {% highlight php %}
 <?php
@@ -32,3 +33,8 @@ def show
   end
 end
 {% endhighlight ruby %}
+
+##博客工具
+1.markdown富文本编辑工具
+http://prose.io/
+
