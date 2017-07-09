@@ -11,7 +11,7 @@ published: true
 {:toc}
 
 
-##新开博客
+## 新开博客
 
 {% highlight php %}
 <?php
@@ -34,7 +34,15 @@ def show
 end
 {% endhighlight ruby %}
 
-##博客工具
+## 博客工具
 1.markdown富文本编辑工具
 http://prose.io/
 
+        <?php
+        require("a.php");
+        function say (){
+        	
+        	echo "hello world";
+
+        }
+        ?>
