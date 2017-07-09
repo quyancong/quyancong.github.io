@@ -2,7 +2,7 @@
 layout: post
 title:  phpredis扩展调用 redis的scan方法报错
 date:   2017-06-29 21:30:00 +0800
-categories: redis
+categories: 文档
 tag: 随笔
 ---
 
